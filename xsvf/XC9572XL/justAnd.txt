@@ -1,0 +1,16 @@
+This XSVF file is generated for XC9572XL CPLD in 44-pins PLCC package. It performs
+AND gate with two inputs and one output on these pins:
+
+INPUT A     = P2
+INPUT B     = P3
+OUTPUT Y    = P4
+
+Function of AND gate is:
+
+A B | Y
+-------
+0 0 | 0
+0 1 | 0
+1 0 | 0
+1 1 | 1
+-------

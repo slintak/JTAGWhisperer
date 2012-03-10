@@ -14,11 +14,11 @@
 #define INCLUDE_JTAG_WHISPERER_UTILITIES_H
 
 #include <stdio.h>
-#include <Arduino.h>
+//#include <Arduino.h>
 
 #define BYTE_COUNT(bit_count) ((int)((bit_count + 7) >> 3))
 #define BYTES(bits) ((int)((bits + 7) >> 3))
-#define HANDLE(x) case x: return handle_##x()
+#define HANDLE(x) case x: return JTAGWhisperer_handle_##x()
 #define NAME_FOR(x) case x: return #x;
 
 #endif  // INCLUDE_JTAG_WHISPERER_UTILITIES_H

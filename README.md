@@ -3,6 +3,14 @@ The JTAG Whisperer
 
 With this library, your Arduino is an XSVF player. Use it to program CPLDs and FPGAs!
 
+This code is rewriten from Arduino/C++ language to C. Now, it do not require Arduino IDE nor
+Arduino itself. You can compile this project by `make` and programme it into any ATMega328P with
+Arduino bootloader. 
+
+For UART communication, the [AVR UART library](http://beaststwo.org/avr-uart/index.shtml) is used.
+
+Although it is still not finished, it should be working.
+
 Warning
 =======
 
@@ -45,6 +53,8 @@ Credits
 =======
 
 By [Mike Tsao](http://www.sowbug.com/). Project on [GitHub](https://github.com/sowbug/JTAGWhisperer/).
+
+Rewriten and modified by [Vlastimil Slintak](http://uart.cz) ([GitHub](https://github.com/slintak/JTAGWhisperer)).
 
 Many thanks to [Ben](https://github.com/ben0109/XSVF-Player/), who adapted the Xilinx XAPP058 code into something comprehensible. This code evolved from his project, and all the clever parts are his.
 
